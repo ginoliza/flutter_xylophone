@@ -17,7 +17,7 @@ class XylophoneApp extends StatelessWidget {
         child: SizedBox(
           width: double.infinity,
         ),
-        onPressed: () async {
+        onPressed: () {
           print("boton presionado");
           playSound(number);
         },
